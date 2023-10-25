@@ -104,6 +104,7 @@ figcaption {
 .grid, .grid > * {
 	display: grid;
     grid-template-columns: auto;
+    align-items: center;
 
 	/* Play with: */
 	/* justify-content:; */
