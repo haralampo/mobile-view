@@ -101,10 +101,10 @@ figcaption {
     font-size: 10px;
 }
 
-.grid, .grid > * {
-	display: grid;
-    grid-template-columns: auto;
-    align-items: center;
+.flex, .flex > * {
+	display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
 
 	/* Play with: */
 	/* justify-content:; */
@@ -112,6 +112,7 @@ figcaption {
 	/* align-items:; */
 	/* align-content:; */
 }
+
 
 .country {
     font-family: 'Courier';
